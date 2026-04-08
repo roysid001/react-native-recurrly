@@ -1,5 +1,5 @@
 import "@/global.css"
-import { Text, View } from "react-native";
+import { Text } from "react-native";
 import {Link} from "expo-router";
 import { styled } from "nativewind";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
@@ -23,7 +23,7 @@ export default function App() {
                 Go to Sign Up
             </Link>
 
-            <Link href="/recurrly/app/subscriptions/spotify">Spotify Subscription</Link>
+            <Link href="/subscriptions/spotify">Spotify Subscription</Link>
 
             <Link href={{
                 pathname: "/subscriptions/[id]",
